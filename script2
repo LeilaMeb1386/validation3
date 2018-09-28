@@ -1,0 +1,7 @@
+#!/bin/bash
+sudo apt update
+sudo apt install apache2 -y
+mkdir CSS JS
+touch ./CSS/style.css
+touch ./JS/script.js
+sudo useradd -m lilly  -p 0000
